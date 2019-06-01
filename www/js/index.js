@@ -44,3 +44,5 @@ var app = {
 };
 
 app.initialize();
+
+/* vim:set ai et ft=javascript sts=2 sw=2 ts=2: */
