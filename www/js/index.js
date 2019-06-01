@@ -16,10 +16,41 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+names = null;
+
 var app = {
   // Application Constructor
   initialize: function() {
     document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+    document.getElementById("fun_me").addEventListener("click", this.fun_me);
+
+    // Load names.
+    var xmlhttp;
+    var jsonObject;
+
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    if (window.XMLHttpRequest)
+    {
+      xmlhttp=new XMLHttpRequest();
+    }
+    // code for IE6, IE5
+    else
+    {
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+
+    xmlhttp.onreadystatechange=function()
+    {
+      if (xmlhttp.readyState==4 && xmlhttp.status==200)
+      {
+        jsonObject = JSON.parse(xmlhttp.responseText);
+        names = jsonObject;
+      }
+    }
+
+    xmlhttp.open("GET","names.json",true);
+    xmlhttp.send();
   },
 
   // deviceready Event Handler
@@ -40,7 +71,29 @@ var app = {
     receivedElement.setAttribute('style', 'display:block;');
 
     console.log('Received Event: ' + id);
+  },
+
+  fun_me: function() {
+    //console.log('The fun_me() function has been called, Sir!');
+    console.log('Names: %o', names);
+    console.log('Names[0]: %o', names[0]);
+
+    min = 0;
+    max = names.length;
+    console.log('Length: ' + names.length);
+    index = Math.floor(Math.random() * (max - min + 1) + min);
+    console.log('Index: ' + index);
+    var name = names[index];
+    console.log('Name: %o', name);
+    console.log('Firstname: ' + name['firstname']);
+    console.log('Firstname 2: ' + name.firstname);
+
+    firstname = document.getElementById('i_firstname');
+    firstname.innerHTML = name['firstname'];
+    lastname = document.getElementById('i_lastname');
+    lastname.innerHTML = name['lastname'];
   }
+
 };
 
 app.initialize();
