@@ -25,3 +25,11 @@ I originally wrote a similar app with Python and Flask,
 https://github.com/nikolausschueler/sillynames. As I'm now trying to get
 familiar with Apache Cordova, https://cordova.apache.org/, I chose this as an
 example application.
+
+Choose your own names
+=====================
+
+The app contains are file called _names.json_ that contains some example names.
+If you want to use funny names of your own, enhance or replace this file. The
+format of the file is JSON, take the file as an example for the structure that
+this file must have.
