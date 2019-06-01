@@ -3,7 +3,8 @@ What is it?
 
 An app that displays names that are supposed to be funny. It will display them in an
 order that lets you guess by yourself, then an order that is supposed to be funny.
-Finally, if available and if needed, it will display a solution.
+Finally, if available and if needed, it will display a solution. (These features
+are still to come, right now, it just displays firstname + lastname.)
 
 Example:
 
