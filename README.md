@@ -24,6 +24,10 @@ https://github.com/nikolausschueler/sillynames. As I'm now trying to get
 familiar with Apache Cordova, https://cordova.apache.org/, I chose this as an
 example application.
 
+Here's a little screenshot:
+
+![Screenshot](./pics/screenshot.png)
+
 Build
 =====
 
