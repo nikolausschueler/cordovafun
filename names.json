@@ -21,8 +21,7 @@
         "length": "8",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "T Mobile",
-        "title": "B"
+        "resolution": "T Mobile"
     },
     {
         "comment": "",
@@ -58,8 +57,7 @@
         "length": "8",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "",
-        "title": "D"
+        "resolution": ""
     },
     {
         "comment": "",
@@ -83,8 +81,7 @@
         "length": "9",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "UTF-8",
-        "title": "E"
+        "resolution": "UTF-8"
     },
     {
         "comment": " ",
@@ -96,8 +93,7 @@
         "length": "11",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "Artificial",
-        "title": "F"
+        "resolution": "Artificial"
     },
     {
         "comment": "",
@@ -121,8 +117,7 @@
         "length": "18",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "Secret life of plants",
-        "title": "L"
+        "resolution": "Secret life of plants"
     },
     {
         "comment": "",
@@ -134,8 +129,7 @@
         "length": "10",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "",
-        "title": "M"
+        "resolution": ""
     },
     {
         "comment": "",
@@ -171,8 +165,7 @@
         "length": "9",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "",
-        "title": "P"
+        "resolution": ""
     },
     {
         "comment": "",
@@ -184,8 +177,7 @@
         "length": "11",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "",
-        "title": "S"
+        "resolution": ""
     },
     {
         "comment": "",
@@ -209,8 +201,7 @@
         "length": "10",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "",
-        "title": "T"
+        "resolution": ""
     },
     {
         "comment": "",
@@ -234,8 +225,7 @@
         "length": "8",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "Request",
-        "title": "W"
+        "resolution": "Request"
     },
     {
         "comment": "",
@@ -247,8 +237,7 @@
         "length": "15",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "",
-        "title": "\u00dc"
+        "resolution": ""
     },
     {
         "comment": "",
@@ -259,7 +248,6 @@
         "lastname": "Lovemeat",
         "pub_date": "",
         "publish": "yes",
-        "resolution": "",
-        "title": "\u00dc"
+        "resolution": ""
     }
 ]
